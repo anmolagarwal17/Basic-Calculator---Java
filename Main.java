@@ -280,7 +280,7 @@ class Calc extends JFrame implements ActionListener
                 textfield2.setText(textfield2.getText().substring(0, textfield2.getText ().length() - 1));
             }
         }
-        else if (e.getSource() == b[2])                             // % modulus
+        else if (e.getSource() == b[2])                             // % percentage and not modulus(as used in a regular calculator)
         {
             temp = "%";
             operator();
