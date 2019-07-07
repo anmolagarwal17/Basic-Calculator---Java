@@ -38,7 +38,7 @@ class Calc extends JFrame implements ActionListener
         b[0] = new JButton("C");
 
         //to display image on button 2 (b2)
-        BufferedImage buttonIcon = ImageIO.read(new File("C:\\Users\\Anmol Agarwal\\Downloads\\2-512.png"));
+        BufferedImage buttonIcon = ImageIO.read(new File("2-512.png"));
         Image dimg = buttonIcon.getScaledInstance(30,30,
                 Image.SCALE_SMOOTH);
         ImageIcon imageIcon = new ImageIcon(dimg);
